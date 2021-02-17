@@ -1,0 +1,49 @@
+.main{
+    padding: 2rem 2rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.article{
+    margin-top: 2rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+    border-radius: 9vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid black;
+    text-align: center;
+    transition: all ease-in 0.5s;
+}
+.article:hover{
+    background-color: white;
+    color: black;
+    transform: translate3d(2px,3px,-2px);
+}
+.article img {
+    width: 50vw;
+    height: 40vw;
+}
+.paginator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.paginator div{
+    margin:25px;
+}
+.paginator .active{
+    cursor: pointer;
+}
+.paginator .disabled{
+    cursor: not-allowed;
+    color: rgb(179,179,179);
+}

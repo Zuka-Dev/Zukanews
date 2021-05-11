@@ -5,11 +5,12 @@
     justify-content: center;
 }
 .main div {
-    margin: 1.3rem;
+    margin: auto;
     cursor: pointer;
-    color: rgb(212, 4, 4);
-    margin-bottom: 3rem;
-    padding: 1rem;
+    color: rgba(9, 224, 224, 0.952);
+    margin-top: 12px;
+    
+    padding: 6px 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,5 +18,5 @@
 }
 .main div:hover{
     color: white;
-    background-color: rgb(212, 4, 4);
+    background-color: black;
 }

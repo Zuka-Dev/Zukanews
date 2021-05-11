@@ -14,14 +14,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgba(9, 224, 224, 0.952);
     padding: 2rem 2rem;
     margin-bottom: 3rem;
-    border-radius: 9vh;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid black;
     text-align: center;
     transition: all ease-in 0.5s;
+}
+.text-basic{
+    font-family: 'Prompt', sans-serif;
+    color: ;
 }
 .article:hover{
     background-color: white;
@@ -36,7 +40,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
+
 .paginator div{
     margin:25px;
 }
@@ -46,4 +52,9 @@
 .paginator .disabled{
     cursor: not-allowed;
     color: rgb(179,179,179);
+    text-shadow:
+         -1px -1px 0 ,  
+          2px -2px 0 rgb(0, 12, 12),
+          -2px 2px 0 rgb(0, 12, 12),
+           2px 2px 0 rgb(00, 12, 12);
 }
